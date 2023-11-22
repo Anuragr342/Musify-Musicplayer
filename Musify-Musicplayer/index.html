@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Musify-Musicplayer</title>
+    </head>
+
+    <body>
+        <div class="music-player">
+            <div class="album-cover">
+                <img src="album_cover.jpeg" alt="Album Cover">
+            </div>
+            <div class="music-details">
+                <h2 id="Musify-Musicplayer">Musify-Musicplayer</h2>
+                <h2 id="song-title">Song Title</h2>
+            </div>
+            <div class="controls">
+                <button id="prev-button" class="round-button left-button">
+                    <i class="fas fa-backward"></i>
+                    Previous
+                </button>
+                <button id="play-button" class="round-button">
+                    <i class="fas fa-play"></i>
+                    Play
+                </button>
+                <button id="pause-button" class="round-button">
+                    <i class="fas fa-pause"></i>
+                    Pause
+                </button>
+                <button id="next-button" class="round-button right-button">
+                    <i class="fas fa-forward"></i>
+                    Next
+                </button>
+            </div>
+            <input type="range" id="seek-bar" class="seek-bar" min="0" step="1">
+            <div class="time-display">
+                <span id="start-time" class="time-start">0:00</span>
+                <span id="end-time" class="time-end">0:00</span>
+            </div>
+            <div class="playlist">
+                <h3>Playlist</h3>
+                <ul id="song-list">
+                    <li><a href="song1.mp3">Song 1</a></li>
+                    <li><a href="song2.mp3">Song 2</a></li>
+                    <li><a href="song3.mp3">Song 3</a></li>
+                    <li><a href="song4.mp3">Song 4</a></li>
+                    <li><a href="song5.mp3">Song 5</a></li>
+                    <li><a href="song6.mp3">Song 6</a></li>
+                    <li><a href="song7.mp3">Song 7</a></li>
+                    <li><a href="song8.mp3">Song 8</a></li>
+                    <li><a href="song9.mp3">Song 9</a></li>
+                    <li><a href="song10.mp3">Song 10</a></li>
+                </ul>
+            </div>
+        </div>
+        <audio id="audio-player" src="song1.mp3"></audio>
+        <script src="script.js"></script>
+    </body>
+
+    </html>
+
+
+    <audio id="audio-player" src="song1.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
